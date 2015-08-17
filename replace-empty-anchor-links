@@ -14,4 +14,8 @@ href="#sometag"
 */
 
 //Sublime Text:
+//Find:
 href=([":'](?=#[":']))?#(?![a-z])[":']?
+
+//Replace:
+href=""
