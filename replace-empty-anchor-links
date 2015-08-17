@@ -1,19 +1,2 @@
-//===================================
 // RegEx Replace Empty Hashtag Links
-// href="#" => href=""
-//===================================
-
-// Replaces:
-// href="#"
-// href='#'
-// href=#
-
-// Does not replace hrefs with specified anchor points:
-// href="#sometag"
-
-// Sublime Text:
-// Find:
 href=([":'](?=#[":']))?#(?![a-z])[":']?
-
-// Replace:
-href=""
